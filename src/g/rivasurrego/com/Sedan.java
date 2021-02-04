@@ -1,22 +1,49 @@
 package g.rivasurrego.com;
 
+import java.time.LocalDate;
+
 public class Sedan extends Vehiculo{
+         private String tipoSedan;
 
-
-    public Sedan(String placa, String modelo, String año, String color, String tipoSedan) {
+    public Sedan(String placa, String modelo, LocalDate año, String color, String tipoSedan) {
         super(placa, modelo, año, color);
 
     }
 
-    public String tipoSedan() {
-        return null;
+    public String calcularTipoSedan() throws Exception {
+
+        if ((LocalDate.now().getYear()-this.getAño().getYear())<3) {
+
+            tipoSedan="A";
+            System.out.println ("Sedan tipo A");
+            return getTipoSedan();
+
+        }
+
+        else if ((LocalDate.now().getYear()-this.getAño().getYear())<6) {
+
+            tipoSedan="B";
+            System.out.println ("Sedan tipo B");
+            return getTipoSedan();
+        }
+
+        else if ((LocalDate.now().getYear()-this.getAño().getYear())<9) {
+
+            tipoSedan="C";
+            System.out.println ("Sedan tipo C");
+            return getTipoSedan();
+        }
+
+        else {
+
+           System.out.println ("El auto es más antiguo de lo permitido");
+            throw new Exception("El auto es más antiguo de lo permitido");
+        }
+
     }
 
-    //quisiera que leyera el año y determinara si es un sedan tipo A (dos años de antiguedad), tipo B (3 a 8 años de antiguedad
-    // sedan tipo C de 9 a 13 años de antiguedad y si es más viejo no lo deje agregar
 
-
-    public String getTipoSedan() {
+    public String getTipoSedan(){
         return tipoSedan;
     }
 

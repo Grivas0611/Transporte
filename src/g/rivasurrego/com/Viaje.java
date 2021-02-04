@@ -2,18 +2,20 @@ package g.rivasurrego.com;
 
 public abstract class Viaje {
     private String codViaje;
-    private double kilometraje;
+    private Double kilometraje;
     private String puntoA;
     private String puntoB;
     private Integer cantPasajeros;
 
-    public abstract void calcCosto();
+    public abstract Double calcCosto();
 
-    public abstract void gastoGasolina();
+    public abstract Double gastoGasolina();
 
-    public String Prueba();
+    public String Prueba() {
+        return null;
+    }
 
-    public Viaje(String codViaje, double kilometraje, String puntoA, String puntoB, Integer cantPasajeros) {
+    public Viaje(String codViaje, Double kilometraje, String puntoA, String puntoB, Integer cantPasajeros) {
         this.codViaje = codViaje;
         this.kilometraje = kilometraje;
         this.puntoA = puntoA;

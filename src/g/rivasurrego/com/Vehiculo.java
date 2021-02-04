@@ -1,12 +1,14 @@
 package g.rivasurrego.com;
 
+import java.time.LocalDate;
+
 public class Vehiculo {
    private String placa;
    private String modelo;
-   private String año;
+   private LocalDate año;
    private String  color;
 
-    public Vehiculo(String placa, String modelo, String año, String color) {
+    public Vehiculo(String placa, String modelo, LocalDate año, String color) {
         this.placa = placa;
         this.modelo = modelo;
         this.año = año;
@@ -29,11 +31,11 @@ public class Vehiculo {
         this.modelo = modelo;
     }
 
-    public String getAño() {
+    public LocalDate getAño() {
         return año;
     }
 
-    public void setAño(String año) {
+    public void setAño(LocalDate año) {
         this.año = año;
     }
 
