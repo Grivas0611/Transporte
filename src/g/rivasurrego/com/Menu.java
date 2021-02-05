@@ -20,7 +20,7 @@ public class Menu {
                 case 1:
                     System.out.println("Mudanza");
                     menuMudanza();
-                    response = 0;
+                    //response = 0;
                     break;
                 case 2:
                     System.out.println("Recorrido");
@@ -40,6 +40,7 @@ public class Menu {
     }
 
      public static void menuMudanza(){
+        boolean operacionTerminada=false;
         do {
          System.out.println("Ingrese el kilometraje, ejemplo: 10.5");
          Scanner sc = new Scanner(System.in);
@@ -54,12 +55,12 @@ public class Menu {
             String cantKg = sc.nextLine();
             Mudanza mudanza = new Mudanza("", Double.valueOf(kilometraje),puntoA,puntoB,Integer.valueOf(cantPersonas),Double.valueOf(cantKg));
 
-            System.out.println("El valor de la mudanza es");
-
-     }while (!emailCorrect);};
+            System.out.println("El valor de la mudanza es "+mudanza.cotizacion());
+            operacionTerminada=true;
+     }while (!operacionTerminada);};
 
 }
-}
+
 /*import java.util.ArrayList;
 import java.util.Scanner;
 

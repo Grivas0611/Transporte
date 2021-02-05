@@ -5,6 +5,7 @@ import static g.rivasurrego.com.Menu.showMenu;
 public class Main {
 
     public static void main(String[] args) {
-	showMenu();
+
+        showMenu();
     }
 }
