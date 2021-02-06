@@ -1,6 +1,6 @@
 package g.rivasurrego.com;
-
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 public class Camion extends Vehiculo{
 
@@ -8,4 +8,11 @@ public class Camion extends Vehiculo{
         super(placa, modelo, año, color);
 
     }
+
+    @Override
+    public String toString() {
+        return "Placa: " + getPlaca() + "Modelo: " + getModelo() +
+                " Año: " + getAño() + "Color: " + getColor() + '\'';
+    }
+
 }

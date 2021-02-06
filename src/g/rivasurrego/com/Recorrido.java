@@ -16,9 +16,9 @@ public class Recorrido extends Viaje implements IPrintable {
 
         return auxCostoRecorrido;
 
-        //Funcion Arrow
+        //
         // se debe leer el kilometraje y multiplicarlo por $2, obtener costo por dìa
-        //multiplicar la cantidad de meses por 30,obtener la cantidad de dias
+        //multiplicar la cantidad de meses por 31,obtener la cantidad de dias
         //multiplicar el costo diario por la cantidad de dias
     }
 

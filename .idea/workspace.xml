@@ -2,21 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e2cdf52-b8eb-42d4-be1f-798b30c96293" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Universidad/Universidad.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Universidad2/Universidad2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Camion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Camion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Sedan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Sedan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Van.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Transporte/g/rivasurrego/com/Van.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Camion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Camion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Imprentable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/IPrintable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Mudanza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Mudanza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Recorrido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Recorrido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Sedan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Sedan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Turismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Turismo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Van.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Van.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Vehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Vehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/g/rivasurrego/com/Viaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/g/rivasurrego/com/Viaje.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,10 +141,18 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/g/rivasurrego/com/Menu.java</url>
-          <line>101</line>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/g/rivasurrego/com/Camion.java</url>
+          <line>6</line>
+          <properties class="g.rivasurrego.com.Camion" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/g/rivasurrego/com/Camion.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

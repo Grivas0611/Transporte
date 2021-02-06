@@ -2,7 +2,7 @@ package g.rivasurrego.com;
 
 import java.time.LocalDate;
 
-public class Sedan extends Vehiculo{
+public class Sedan extends Vehiculo {
          private String tipoSedan;
 
     public Sedan(String placa, String modelo, LocalDate año, String color, String tipoSedan) {
@@ -36,7 +36,7 @@ public class Sedan extends Vehiculo{
 
         else {
 
-           System.out.println ("El auto es más antiguo de lo permitido");
+         //  System.out.println ("El auto es más antiguo de lo permitido");
             throw new Exception("El auto es más antiguo de lo permitido");
         }
 

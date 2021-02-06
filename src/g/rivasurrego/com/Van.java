@@ -12,6 +12,15 @@ public class Van extends Vehiculo{
         this.capacidadMax = capacidadMax;
     }
 
+
+
+    @Override
+    public String toString() {
+        return "Placa: " + getPlaca() + "Modelo: " + getModelo() +
+                " Año: " + getAño() + "Color: " + getColor() + '\''+
+                "Cantidad de Puertas:"+getCantPuertas()+"Capacidad Máx Pasajeros:  "+getCapacidadMax();
+    }
+
     public Integer getCantPuertas() {
         return cantPuertas;
     }
@@ -27,4 +36,6 @@ public class Van extends Vehiculo{
     public void setCapacidadMax(Integer capacidadMax) {
         this.capacidadMax = capacidadMax;
     }
+
+
 }
